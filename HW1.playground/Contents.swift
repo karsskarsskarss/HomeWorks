@@ -2,9 +2,9 @@
 //Exercise 1
 //Declare two string constants firstString and secondString. Assign them the values "I'm learing" and "swift". Print the phrase "I'm learing swift !!!" using these string variables.
 //*/
-let firstString = "I'm learning"
-let secondString = "swift"
-print("\(firstString) \(secondString) !!!")
+//let firstString = "I'm learning"
+//let secondString = "swift"
+//print("\(firstString) \(secondString) !!!")
 //
 //
 ///*
@@ -12,6 +12,7 @@ print("\(firstString) \(secondString) !!!")
 //Create a constant named myAge and assign it the value of your age.
 //*/
 //let myAge = 20
+//print(myAge)
 //
 ///*
 //Exercise 2.2
@@ -19,7 +20,7 @@ print("\(firstString) \(secondString) !!!")
 //*/
 //
 //let myAge = 20
-//var myAgeInTenYears = myAge + 10
+//let myAgeInTenYears = myAge + 10
 //
 ///*
 //Exercise 2.3
@@ -32,8 +33,8 @@ print("\(firstString) \(secondString) !!!")
 //*/
 //let daysInYear = 365.25
 //let myAge = 20
-//var myAgeInTenYears = myAge + 10
-//var daysPassed = Float(myAgeInTenYears) * Float(daysInYear)
+//let myAgeInTenYears = myAge + 10
+//let daysPassed = Float(myAgeInTenYears) * Float(daysInYear)
 //print(daysPassed)
 //print(myAgeInTenYears)
 //print(daysInYear)
@@ -62,16 +63,16 @@ print("\(firstString) \(secondString) !!!")
 //*/
 //
 //
-//let AC: Double = 8.0
-//let CB: Double = 6.0
-//
-//let AB = sqrt(AC * AC + CB * CB)
-//let area = 0.5 * AC * CB
-//let perimeter = AC + CB + AB
-//
-//print("Hypotenuse: \(AB)")
-//print("Area: \(area)")
-//print("Perimeter: \(perimeter)")
+var AC: Double = 8.0
+var CB: Double = 6.0
+
+var AB = (AC * AC + CB * CB)^1/2
+var area = 0.5 * AC * CB
+var perimeter = AC + CB + AB
+
+print("Hypotenuse: \(AB)")
+print("Area: \(area)")
+print("Perimeter: \(perimeter)")
 
 
 //
